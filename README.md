@@ -1,5 +1,11 @@
 # kekcrypt
-
+## Installation 
+- Install [Go](https://go.dev/dl/)
+- Run the following command: 
+```
+$ go install github.com/d4c5d1e0/kekcrypt/cmd/kekcrypt@latest
+```
+- Done !
 ## Basic usage
 
 ```
