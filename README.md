@@ -28,6 +28,6 @@ $ kekcrypt -m dec -f db.7z.kek -o db.7z.dec
 
 ## Specs
 
-- Files are encrypted with XChaCha20 and authenticated with HMAC-SHA256
+- Files are encrypted with XChaCha20 and authenticated with HMAC-SHA512
 - File names are encrypted with AES-GCM 128
 - The keys are derived from the main password and a random salt with `argon2id` `rounds=4 memory=256*1024 threads=4`
